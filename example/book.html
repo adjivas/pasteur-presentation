@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+      @import "http://fonts.googleapis.com/css?family=OFL+Sorts+Mill+Goudy+TT:regular,italic";
+      body {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  margin: inherit;
+  height: 100%;
+  width: 100%; }
+  body header, body aside {
+    position: relative;
+    margin: inherit;
+    display: inherit;
+    flex-direction: column;
+    align-items: inherit;
+    justify-content: flex-start;
+    height: inherit; }
+  body header {
+    width: 20vw;
+    background-color: #fafafa; }
+    body header figure, body header img {
+      position: inherit;
+      margin: inherit;
+      width: 20vw;
+      height: 20vw; }
+    body header figure {
+      border-bottom: 2px solid #aaaaaa; }
+      body header figure figcaption {
+        position: fixed;
+        color: white;
+        text-align: center;
+        padding: inherit;
+        left: 20vw;
+        top: calc(20vw / 4);
+        background-color: black;
+        height: 50px;
+        line-height: 50px; }
+      body header figure figcaption::before {
+        position: fixed;
+        content: '\00A0';
+        border-top: 25px solid transparent;
+        border-right: calc(20vw / 2) solid black;
+        border-bottom: 25px solid transparent;
+        left: calc(20vw / 2);
+        height: 0px;
+        width: 0px; }
+    body header nav li a {
+      text-decoration: none; }
+  body aside {
+    width: calc(100% - 20%); }
+    body aside article {
+      margin-left: 10%;
+      margin-right: 10%; }
+
+    </style>
+</head>
+<body>
+  <header>
+    <figure>
+     <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Neko_Wikipe-tan.svg" alt="neko">
+     <figcaption>Hello!</figcaption>
+    </figure>
+    <nav>
+      <ul>
+        <li><a href="prologue">Prologue</a></li>
+        <li><a href="chronology">Chronologie</a></li>
+        <li><a href="tree">Diagnostique</a></li>
+        <li><a href="map">Cartographie</a></li>
+        <li><a href="about">? propos</a></li>
+        <li><a href="help">Aide</a></li>
+      </ul>
+    </nav>
+  </header>
+  <aside>
+    <article>
+      <p>`Pasteur-Reference` est un Site Web qui ce veut synth?tiser toute la connaissance sur l'autisme.</p>
+
+      <p>Vous trouverez ? :</p>
+      <li>Chronologie : la liste des th?ses, articles [...]</li>
+      <li>Arbre : diagnostique...</li>
+      <li>Carte...</li>
+
+      <p>Et le nom de la nekoe est Mariane.</p>
+    </article>
+  </aside>
+</body>
+</html>
